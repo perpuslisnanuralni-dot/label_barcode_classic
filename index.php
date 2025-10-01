@@ -30,7 +30,7 @@ if (!$can_read) {
   die('<div class="errorBox">'.__('You are not authorized to view this section').'</div>');
 }
 
-$max_print = 10;
+$max_print = 50;
 $plugin_name = 'label_barcode_classic';
 
 define('LBC', SWB.'plugins/'.basename(__DIR__).'/');
